@@ -1,0 +1,8 @@
+data/
+tensorflow_gpu-1.0.1-cp27-none-linux_x86_64.whl
+train/eval_3layer/
+train/eval_3layer_binary/
+train/eval_3layer_ternary/
+train/train_3layer/
+train/train_3layer_binary/
+train/train_3layer_ternary/
