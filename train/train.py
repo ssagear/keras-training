@@ -160,7 +160,7 @@ if __name__ == "__main__":
 
     print_model_to_json(keras_model,options.outputDir + '/' + 'KERAS_model.json')
 
-    startlearningrate=0.00005
+    startlearningrate=0.001
     adam = Adam(lr=startlearningrate)
     keras_model.compile(optimizer=adam, loss=[yamlConfig['KerasLoss']], metrics=['accuracy'])
 
