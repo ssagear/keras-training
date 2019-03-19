@@ -1,0 +1,8 @@
+CHANGES:
+
+1. 
+Learning Rate = .0001
+TO
+Learning Rate = .001
+
+2. Added one more dense + batch normalization layer in models.py
