@@ -15,17 +15,17 @@ Inputs:
     - j_n2_b2_mmdt
     - j_mass_mmdt
     - j_multiplicity
-    
+
 Labels:
     - j_g
     - j_q
     - j_w
     - j_z
     - j_t
-    
+
 KerasModel: three_layer_model_ternary
 KerasModelRetrain: three_layer_model_constraint
 KerasLoss: squared_hinge
 L1Reg: 0.0001
-NormalizeInputs: 1 
+NormalizeInputs: 1
 InputType: Dense
